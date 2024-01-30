@@ -1,0 +1,30 @@
+body {
+  background-image: url('https://wallpapercave.com/wp/lzVdBTi.jpg');
+  background-position: top;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+div {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  margin: 5px;
+  padding: 5px;
+  min-width: 200px;
+  font-weight: bold;
+  background-color: rgba(128, 151, 132, 0.3);
+}
+
+.planet-div:hover {
+  background-color: rgba(0, 140, 255, 0.8);
+}
+.continent-div:hover {
+  background-color: rgba(221, 255, 0, 0.8);
+}
